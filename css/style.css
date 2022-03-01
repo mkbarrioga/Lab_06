@@ -41,25 +41,32 @@
 }
 
 #sidebar{
-
+  position: fixed;
+  right: 0%;
 }
 
 #sidebar-container{
-
+  background-color: red;
+  height: 100%;
+  width: 20%;
 }
 
 #sidebar-container ul{
-
+  list-style-type: none;
 }
 
 #sidebar-container ul li{
-
+  text-align: center;
+  padding: 0;
 }
 
 #sidebar-container ul li a{
-
+  display: block;
+  padding: 15px 0;
+  color: #fff;
+  text-decoration: none;
 }
 
 #sidebar-container ul li a:hover{
-
+  background-color: #000;
 }
